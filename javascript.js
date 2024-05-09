@@ -48,7 +48,7 @@ function getOptions() {
     Ranswer = shuffledOptions[Math.floor(Math.random() * 4)];
 
     
-    document.getElementById("equation").innerHTML = `<img src="sigma/assets/${Ranswer}.PNG" alt ="Error">`;
+    document.getElementById("equation").innerHTML = `<img src="${Ranswer}.PNG" alt ="Error">`;
     
 
     for (let i = 0; i < buttons.length; i++) {
